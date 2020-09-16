@@ -6,60 +6,72 @@
 def teste1():
     a = int(input('Digite A: '))
     b = int(input('Digite B: '))
-    return a > b
+    c = int(input('Digite C: '))
+    return a < b and a < c
 
 #  Teste 2
 def teste2():
-    x = int(input('Digite X: '))    
-    return x <= 10.0
+    a = int(input('Digite A: '))
+    b = int(input('Digite B: '))
+    c = int(input('Digite C: '))
+    return a < b or a < c
 
 #  Teste 3
 def teste3():
     a = int(input('Digite A: '))
     b = int(input('Digite B: '))
-    return a-b >= 0
+    c = int(input('Digite C: '))
+    return a >= 0 and b == c
 
 #  Teste 4
 def teste4():
     a = int(input('Digite A: '))
     b = int(input('Digite B: '))
-    n = int(input('Digite N: '))
-    return a*b < n
+    c = int(input('Digite C: '))
+    return a >= 0 and b == c
 
 #  Teste 5
 def teste5():
     a = int(input('Digite A: '))
     b = int(input('Digite B: '))
     c = int(input('Digite C: '))
-    return 10*a >= b*c
+    return a >= 0 or b == c
 
 #  Teste 6
 def teste6():
     a = int(input('Digite A: '))
     b = int(input('Digite B: '))
     c = int(input('Digite C: '))
-    return a > b
+    return a >= 0 or b == c
 
 #  Teste 7
 def teste7():
-    n = int(input('Digite N: '))
-    return n % 2 == 0
+    a = int(input('Digite A: '))
+    b = int(input('Digite B: '))
+    c = int(input('Digite C: '))
+    return b is not 0 and a is not c
 
 #  Teste 8
 def teste8():
-    n = int(input('Digite N: '))
-    return n % 2 == 0
+    a = int(input('Digite A: '))
+    b = int(input('Digite B: '))
+    c = int(input('Digite C: '))
+    return b is not 0 and a is not c
     
 
 #  Teste 9
 def teste9():
-    t = int(input('Digite T: '))
-    return t == 'BANANA'
+    a = int(input('Digite A: '))
+    b = int(input('Digite B: '))
+    c = int(input('Digite C: '))
+    return b is not 0 or a is not c
 
 #  Teste 10
 def teste10():
-    t = int(input('Digite T: '))
-    return t > 'BANANA'
+    a = int(input('Digite A: '))
+    b = int(input('Digite B: '))
+    c = int(input('Digite C: '))
+    return b is not 0 or a is not c
 
 # Pedindo as entradas e mostrando os resultados    
 
